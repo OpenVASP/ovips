@@ -1,5 +1,5 @@
 <pre>
-  BIP: 1
+  OVIP: 1
   Title: OVIP Purpose and Guidelines
   Author: Felix Laufenberg <felix.laufenberg@bitcoinsuisse.com>
   Comments-Summary: No comments yet.
@@ -74,7 +74,7 @@ Each OVIP should have the following parts:
 
 ==OVIP Formats and Templates==
 
-BIPs should be written in mediawiki or markdown format.
+OVIPs should be written in mediawiki or markdown format.
 
 ===OVIP Header Preamble===
 
@@ -87,9 +87,9 @@ Each OVIP must begin with an RFC 822 style header preamble. The headers must app
 * Discussions-To: <email address>
   Status: <Proposal | Active | Accepted | Deferred | Rejected |
             Superseded>
-  Type: <Standards Track | Informational | Process>
+  Type: <Standard | Technical Clearification | Testing | Process>
   Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
-* Post-History: <dates of postings to bitcoin mailing list>
+* Post-History: <dates of postings to mailing list>
 * Replaces: <OVIP number>
 * Superseded-By: <OVIP number>
 * Resolution: <url>
