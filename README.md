@@ -1,2 +1,0 @@
-# ovips
-OpenVASP improvement proposals
