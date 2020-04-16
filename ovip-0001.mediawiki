@@ -1,0 +1,133 @@
+<pre>
+  BIP: 1
+  Title: OVIP Purpose and Guidelines
+  Author: Felix Laufenberg <felix.laufenberg@bitcoinsuisse.com>
+  Comments-Summary: No comments yet.
+  Comments-URI: 
+  Status: Proposal
+  Type: Process
+  Created: 2020-04-16
+  Superseded-By: 0
+</pre>
+
+==What is an OVIP?==
+
+OVIP stands for OpenVASP Improvement Proposal. An OVIP is a design document providing information to the OpenVASP community, describing a new feature for the OpenVASP protocol or discussing cross-implementation relevant topics. The OVIP should provide a concise technical specification of the feature and a rationale for the feature.
+OVIPs closely follow the process of BIPs which is being successfully introduced and used by the Bitcoin community.
+
+We intend OVIPs to be the primary mechanisms for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into the OpenVASP protocol.
+
+OVIPs build on top the initial version of the OpenVASP whitepaper which functions as a version 0.1 of the protocol. The OVIPs will eventually be compiled into a refined specification which will become a ratified standard (version 1.0).
+
+Because the OVIPS are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
+
+==OVIP Types==
+
+There are four kinds of OVIPs:
+
+* Technical Clearification: Descripe cross-implementation technical details which do not imply a change to the current standard, but rather fill gaps of undefined details which leave room for interpretation and could impact interoperability.
+* Standard: Descripe additions or changes to the current standard. These OVIPs that change the protocol by adding or changing existing functionality.
+* Testing: Descripe a single or multiple test-suites that an OpenVASP client implementation has to pass in order to ensure interoperability.
+* Process: Descripes changes to OpenVASP processes. These OVIPs should not change the protocal itself.
+
+==OVIP Work Flow==
+
+The OVIP process should consist of three phases:
+
+1. Community discussion. Discussing an idea publicly in the OpenVASP discussion group is a good way to get a sense of acceptance and relevance of the idea. It is highly recommended that a single OVIP contain a single key proposal or new idea. The more focused the OVIP, the more successful it tends to be. If in doubt, split your OVIP into several well-focused ones.
+
+2. Intial OVIP. After discussing the idea and being able to formulate it clearly and precisesly, the author should create a formal OVIP following the format specified below. When the intital version is complete, create a PR. 
+
+3. Iterative improvment. The PR will be reviewed by the maintainers and might be deferred without reasoning if the format is not as specified, or might be deferred with improvement proposals. 
+
+4. Acceptance, Rejection or Counterproposal. Once the OVIP is in a formally good state the PR will be merged and the OVIP will be added to the repository in status "Proposal". In their next meeting, the OpenVASP member committee will consider all OVIPs with status "Proposal" and decide whether the OVIP will be accepted (=> status "Accepted"), rejected (=> status "Rejected") or whether it needs further refinement (=> status "Deferred").
+
+5. Re-submition. OVIPs in status "Deferred" can be re-submitted via PR. When the PR is merged the status will be ste back to "Proposal".
+
+6. Finalization. Once an OVIP is activated in the network, it's status will change to "Acive". From this it follows that each OVIP in state "Active" must reference a reference implementation.
+
+7. Superseded. If a subsequent OVIP invalidates an existing OVIP. The status of the invalidated OVIP must change to "Superseded".
+
+==What belongs in a successful OVIP?==
+
+Each OVIP should have the following parts:
+
+* Preamble -- RFC 822 style headers containing meta-data about the OVIP, including the OVIP number, a short descriptive title (limited to a maximum of 44 characters), the names, and optionally the contact info for each author, etc.
+
+* Abstract -- a short (~200 word) description of the technical issue being addressed.
+
+* Copyright/public domain -- Each OVIP must either be explicitly labelled as placed in the public domain (see this OVIP as an example) or licensed under the Open Publication License.
+
+* Specification -- The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current OpenVASP client implementations.
+
+* Motivation -- The motivation is critical for OVIPs that want to change the OpenVASP protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the OVIP solves. OVIP submissions without sufficient motivation may be rejected outright.
+
+* Rationale -- The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages.
+
+* The rationale should provide evidence of consensus within the community and discuss important objections or concerns raised during discussion.
+
+* Backwards Compatibility -- All OVIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The OVIP must explain how the author proposes to deal with these incompatibilities. OVIP submissions without a sufficient backwards compatibility treatise may be rejected outright.
+
+* Reference Implementation -- The reference implementation must be completed before any OVIP is given status "Final", but it need not be completed before the OVIP is accepted. It is better to finish the specification and rationale first and reach consensus on it before writing code.
+
+* The final implementation must include test code and documentation appropriate for the OpenVASP protocol.
+
+==OVIP Formats and Templates==
+
+BIPs should be written in mediawiki or markdown format.
+
+===OVIP Header Preamble===
+
+Each OVIP must begin with an RFC 822 style header preamble. The headers must appear in the following order. Headers marked with "*" are optional and are described below. All other headers are required.
+
+<pre>
+  OVIP: <OVIP number>
+  Title: <OVIP title>
+  Author: <list of authors' real names and optionally, email addrs>
+* Discussions-To: <email address>
+  Status: <Proposal | Active | Accepted | Deferred | Rejected |
+            Superseded>
+  Type: <Standards Track | Informational | Process>
+  Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
+* Post-History: <dates of postings to bitcoin mailing list>
+* Replaces: <OVIP number>
+* Superseded-By: <OVIP number>
+* Resolution: <url>
+</pre>
+
+The Author header lists the names, and optionally the email addresses of all the authors/owners of the OVIP. The format of the Author header value must be
+
+  Random J. User <address@dom.ain>
+
+if the email address is included, and just
+
+  Random J. User
+
+if the address is not given.
+
+If there are multiple authors, each should be on a separate line following RFC 2822 continuation line conventions.
+
+Note: The Resolution header is required for Standards Track OVIPs only. It contains a URL that should point to an email message or other web resource where the pronouncement about the OVIP is made.
+
+While a OVIP is in private discussions (usually during the initial Draft phase), a Discussions-To header will indicate the mailing list or URL where the OVIP is being discussed. No Discussions-To header is necessary if the OVIP is being discussed privately with the author, or on the bitcoin email mailing lists.
+
+The Type header specifies the type of OVIP: Standards Track, Informational, or Process.
+
+The Created header records the date that the OVIP was assigned a number, while Post-History is used to record the dates of when new versions of the OVIP are posted to bitcoin mailing lists. Both headers should be in yyyy-mm-dd format, e.g. 2001-08-14.
+
+OVIPs may have a Requires header, indicating the OVIP numbers that this OVIP depends on.
+
+OVIPs may also have a Superseded-By header indicating that a OVIP has been rendered obsolete by a later document; the value is the number of the OVIP that replaces the current document. The newer OVIP must have a Replaces header containing the number of the OVIP that it rendered obsolete.
+
+===Auxiliary Files===
+
+OVIPs may include auxiliary files such as diagrams. Image files should be included in a subdirectory for that OVIP. Auxiliary files must be named OVIP-XXXX-Y.ext, where "XXXX" is the OVIP number, "Y" is a serial number (starting at 1), and "ext" is replaced by the actual file extension (e.g. "png").
+
+==History==
+
+This Document was derived heavily from Bitcoins BIP-0001. In many places text was simply copied and modified. 
+
+From BIP-0001:
+"This document was derived heavily from Python's PEP-0001. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Bitcoin Improvement Process, and should not be bothered with technical questions specific to Bitcoin or the BIP process. Please direct all comments to the BIP editors or the Bitcoin development mailing list."
+
+==Changelog==

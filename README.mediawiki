@@ -1,0 +1,24 @@
+To submit a new OVIP, please open a PR. After copy-editing and acceptance, it will be published here.
+
+OpenVASP is an open-source and communitiy driven project. Thus anyone is encouraged to submit OVIPs and engage in discussion. Decisions on which OVIP proposal will be accepted and ratified will be made by a committee of members of the OpenVASP initiative.
+Having a OVIP here does not make it a formally accepted standard until its status becomes Final or Active.
+
+We thank the Bitcoin community for introducing this process to handle standard improvement proposals, which the OVIP process follows in large parts.
+
+{| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
+!Number
+!Layer
+!Title
+!Owner
+!Type
+!Status
+|- style="background-color: #ffcfcf"
+| [[bip-0001.mediawiki|1]]
+|
+| BIP Purpose and Guidelines
+| Amir Taaki
+| Process
+| Replaced
+|}
+
+<!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add OVIPs here! -->
