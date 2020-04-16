@@ -13,12 +13,12 @@ We thank the Bitcoin community for introducing this process to handle standard i
 !Type
 !Status
 |- style="background-color: #ffcfcf"
-| [[bip-0001.mediawiki|1]]
+| [[ovip-0001.mediawiki|1]]
 |
-| BIP Purpose and Guidelines
-| Amir Taaki
+| OVIP Purpose and Guidelines
+| Felix Laufenberg
 | Process
-| Replaced
+| Proposal
 |}
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add OVIPs here! -->
