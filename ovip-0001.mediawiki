@@ -56,8 +56,6 @@ Each OVIP should have the following parts:
 
 * Abstract -- a short (~200 word) description of the technical issue being addressed.
 
-* Copyright/public domain -- Each OVIP must either be explicitly labelled as placed in the public domain (see this OVIP as an example) or licensed under the Open Publication License.
-
 * Specification -- The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current OpenVASP client implementations.
 
 * Motivation -- The motivation is critical for OVIPs that want to change the OpenVASP protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the OVIP solves. OVIP submissions without sufficient motivation may be rejected outright.
