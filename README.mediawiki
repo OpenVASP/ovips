@@ -19,6 +19,13 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Felix Laufenberg
 | Process
 | Proposal
+|-
+| [[OVIP-0002.md|2]]
+|
+| Virtual Assets Account Number (VAAN)
+| David Riegelnig
+| Standard
+| Proposal
 |}
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add OVIPs here! -->
