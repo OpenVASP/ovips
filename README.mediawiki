@@ -20,7 +20,7 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Process
 | Proposal
 |-
-| [[OVIP-0002.md|2]]
+| [[ovip-0002.md|2]]
 |
 | Virtual Assets Account Number (VAAN)
 | David Riegelnig
