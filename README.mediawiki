@@ -33,6 +33,13 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | David Riegelnig
 | Standard
 | Proposal
+|-
+| [[ovip-0004.md|4]]
+|
+| Whisper Reliability Solution
+| Nika Gamkrelidze
+| Standard
+| Proposal
 |}
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add OVIPs here! -->
