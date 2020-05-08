@@ -1,6 +1,6 @@
 To submit a new OVIP, please open a PR. After copy-editing and acceptance, it will be published here.
 
-OpenVASP is an open-source and communitiy driven project. Thus anyone is encouraged to submit OVIPs and engage in discussion. Decisions on which OVIP proposal will be accepted and ratified will be made by a committee of members of the OpenVASP initiative.
+OpenVASP is an open-source and community driven project. Thus anyone is encouraged to submit OVIPs and engage in discussion. Decisions on which OVIP proposal will be accepted and ratified will be made by a committee of members of the OpenVASP initiative.
 Having a OVIP here does not make it a formally accepted standard until its status becomes Final or Active.
 
 We thank the Bitcoin community for introducing this process to handle standard improvement proposals, which the OVIP process follows in large parts.
@@ -23,6 +23,13 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | [[ovip-0002.md|2]]
 |
 | Virtual Assets Account Number (VAAN)
+| David Riegelnig
+| Standard
+| Proposal
+|-
+| [[ovip-0003.md|3]]
+|
+| VASP Identity
 | David Riegelnig
 | Standard
 | Proposal
