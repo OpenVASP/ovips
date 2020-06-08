@@ -41,6 +41,13 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Standard
 | Proposal
 |-
+| [[ovip-0007.md|7]]
+|
+| Session Layer
+| David Riegelnig
+| Standard
+| Proposal
+|-
 | [[ovip-0009.md|9]]
 |
 | 6 Layers of OpenVASP
