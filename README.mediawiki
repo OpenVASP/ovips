@@ -20,7 +20,7 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Process
 | Proposal
 |-
-| [[OVIP-0002.md|2]]
+| [[ovip-0002.md|2]]
 |
 | Virtual Assets Account Number (VAAN)
 | David Riegelnig
@@ -30,6 +30,34 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | [[ovip-0003.md|3]]
 |
 | VASP Identity
+| David Riegelnig
+| Standard
+| Proposal
+|-
+| [[ovip-0006.md|6]]
+|
+| Protocol messages cleanup
+| Nika Gamkrelidze
+| Standard
+| Proposal
+|-
+| [[ovip-0007.md|7]]
+|
+| Session Layer
+| David Riegelnig
+| Standard
+| Proposal
+|-
+| [[ovip-0009.md|9]]
+|
+| 6 Layers of OpenVASP
+| Felix Laufenberg
+| Standard
+| Proposal
+|-
+| [[ovip-0010.md|10]]
+|
+| Whisper as Transport Layer
 | David Riegelnig
 | Standard
 | Proposal
