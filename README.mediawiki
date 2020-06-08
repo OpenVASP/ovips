@@ -34,9 +34,9 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Standard
 | Proposal
 |-
-| [[ovip-0004.md|4]]
+| [[ovip-0006.md|6]]
 |
-| Whisper Reliability Solution
+| Protocol messages cleanup
 | Nika Gamkrelidze
 | Standard
 | Proposal
