@@ -34,10 +34,31 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Standard
 | Proposal
 |-
-| [[ovip-0004.md|4]]
+| [[ovip-0006.md|6]]
 |
-| Whisper Reliability Solution
+| Protocol messages cleanup
 | Nika Gamkrelidze
+| Standard
+| Proposal
+|-
+| [[ovip-0007.md|7]]
+|
+| Session Layer
+| David Riegelnig
+| Standard
+| Proposal
+|-
+| [[ovip-0009.md|9]]
+|
+| 6 Layers of OpenVASP
+| Felix Laufenberg
+| Standard
+| Proposal
+|-
+| [[ovip-0010.md|10]]
+|
+| Whisper as Transport Layer
+| David Riegelnig
 | Standard
 | Proposal
 |}
