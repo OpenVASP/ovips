@@ -64,7 +64,7 @@ We thank the Bitcoin community for introducing this process to handle standard i
 |-
 | [[ovip-0012.md|12]]
 |
-| VASP Dictionary
+| VASP Directory
 | Felix Laufenberg
 | Standard
 | Proposal
