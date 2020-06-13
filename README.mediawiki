@@ -61,6 +61,13 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | David Riegelnig
 | Standard
 | Proposal
+|-
+| [[ovip-0012.md|12]]
+|
+| VASP Dictionary
+| Felix Laufenberg
+| Standard
+| Proposal
 |}
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add OVIPs here! -->
