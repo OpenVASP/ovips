@@ -62,6 +62,13 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Standard
 | Proposal
 |-
+| [[ovip-0011.md|11]]
+|
+| VASP Registries
+| David Riegelnig
+| Standard
+| Proposal
+|-
 | [[ovip-0012.md|12]]
 |
 | VASP Directory
