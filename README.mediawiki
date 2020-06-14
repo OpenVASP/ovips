@@ -75,6 +75,13 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Felix Laufenberg
 | Standard
 | Proposal
+|-
+| [[ovip-0013.md|13]]
+|
+| OpenVASP Core Data Types
+| David Riegelnig
+| Standard
+| Proposal
 |}
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add OVIPs here! -->
