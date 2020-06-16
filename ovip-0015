@@ -1,0 +1,84 @@
+```pseudocode
+OVIP: 15
+Title: OpenVASP Verification
+Author: David Riegelnig <david.riegelnig@bitcoinsuisse.com>
+Discussions-To: https://community.openvasp.org/#narrow/stream/21-protocol-.2F.20ovip
+Status: Proposal
+Type: Standard
+Created: 2020-06-14
+```
+
+# Abstract
+
+Text
+
+# Definitions
+
+**VASP Identifier**</br>
+Globally unique VASP identifier as specified in [ovip-0002]().
+
+**VASP Registry**</br>
+Smart contract operated by a trusted third party providing access to claims about a VASP referenced by its *VASP Identifier*.
+
+**Credential**</br>
+Claim about a VASP issued by a trusted third party via its *VASP Registry*.
+
+# Specification
+
+## 1. Base
+
+Credentials should be conformant to the W3C standard on "Verifiable Credentials" as specified in https://www.w3.org/TR/vc-data-model/.
+
+## 2. Credential Structure
+
+### 2.1. Top-Level Properties
+
+    {
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    "id": "https://openvasp.org/verification",
+    "type": ["VerifiableCredential", "OpenVASPCredential"],
+    "issuer" : "https://openvasp.org",
+    "validFrom" : "2020-08-01T19:23:24Z",
+    "credentialSubject": {
+        "id": "did:vasp:1000bb528777",
+        "name": "Example VASP",
+        "degree": {
+          "type": "BachelorDegree",
+          "name": "Bachelor of Science and Arts"
+        }
+    }
+
+
+
+| Property            | Multiplicity | Values                                          | See  |
+| :------------------ | :----------- | :---------------------------------------------- | :--- |
+| `@context`          | 1..1         | `https://www.w3.org/2018/credentials/v1`        |      |
+| `id`                | 1..1         | `https://openvasp.org/verification`             |      |
+| `type`              | 1..1         | `VerifiableCredential`, `OpenVASPCredential`    |      |
+| `issuer`            | 1..1         | `https://openvasp.org`                          |      |
+| `validFrom`         | 1..1         | String value as per RFC3339                     |      |
+| `credentialSubject` | 1..1         | Set of objects containing claims about the VASP | 2.2  |
+| `proof`             | 1..1         | Set of objects representing a signature         | 2.3  |
+
+### 2.2. Properties of `credentialSubject`
+
+| Property            | Multiplicity | Values                                          | See  |
+| :------------------ | :----------- | :---------------------------------------------- | :--- |
+| `id`                | 1..1         | VASP Identifier                                 |      |
+| `name`              | 1..1         | Legal name                                      |      |
+| `address`           | 1..1         |                                                 |      |
+| `validFrom`         | 1..1         | String value as per RFC3339                     |      |
+| `credentialSubject` | 1..1         | Set of objects containing claims about the VASP | 2.2  |
+| `proof`             | 1..1         | Set of objects representing a signature         | 2.3  |
+
+# Motivation
+
+Text
+
+# Rationale
+
+- Text
+
+# Backwards Compatibility
+
+Specification proposes new functionality.
