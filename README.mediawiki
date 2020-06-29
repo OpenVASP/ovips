@@ -39,7 +39,7 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Protocol messages cleanup
 | Nika Gamkrelidze
 | Standard
-| Proposal
+| Superseded
 |-
 | [[ovip-0007.md|7]]
 |
