@@ -39,7 +39,7 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Protocol messages cleanup
 | Nika Gamkrelidze
 | Standard
-| Proposal
+| Superseded
 |-
 | [[ovip-0007.md|7]]
 |
@@ -86,6 +86,13 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | [[ovip-0014.md|14]]
 |
 | Message Family: Transfer (TFR)
+| David Riegelnig
+| Standard
+| Proposal
+|-
+| [[ovip-0015.md|15]]
+|
+| OpenVASP Credential
 | David Riegelnig
 | Standard
 | Proposal
