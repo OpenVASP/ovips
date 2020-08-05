@@ -18,21 +18,21 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | OVIP Purpose and Guidelines
 | Felix Laufenberg
 | Process
-| Proposal
+| Accepted
 |-
 | [[ovip-0002.md|2]]
 |
 | Virtual Assets Account Number (VAAN)
 | David Riegelnig
 | Standard
-| Proposal
+| Accepted
 |-
 | [[ovip-0003.md|3]]
 |
 | VASP Identity
 | David Riegelnig
 | Standard
-| Proposal
+| Accepted
 |-
 | [[ovip-0006.md|6]]
 |
@@ -46,56 +46,56 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Session Layer
 | David Riegelnig
 | Standard
-| Proposal
+| Accepted
 |-
 | [[ovip-0009.md|9]]
 |
 | 6 Layers of OpenVASP
 | Felix Laufenberg
 | Standard
-| Proposal
+| Accepted
 |-
 | [[ovip-0010.md|10]]
 |
 | Whisper as Transport Layer
 | David Riegelnig
 | Standard
-| Proposal
+| Accepted
 |-
 | [[ovip-0011.md|11]]
 |
 | VASP Registries
 | David Riegelnig
 | Standard
-| Proposal
+| Accepted
 |-
 | [[ovip-0012.md|12]]
 |
 | VASP Directory
 | Felix Laufenberg
 | Standard
-| Proposal
+| Accepted
 |-
 | [[ovip-0013.md|13]]
 |
 | OpenVASP Core Data Types
 | David Riegelnig
 | Standard
-| Proposal
+| Accepted
 |-
 | [[ovip-0014.md|14]]
 |
 | Message Family: Transfer (TFR)
 | David Riegelnig
 | Standard
-| Proposal
+| Accepted
 |-
 | [[ovip-0015.md|15]]
 |
 | OpenVASP Credential
 | David Riegelnig
 | Standard
-| Proposal
+| Accepted
 |}
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add OVIPs here! -->
