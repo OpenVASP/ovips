@@ -4,7 +4,7 @@
   Author: Felix Laufenberg <felix.laufenberg@bitcoinsuisse.com>
   Comments-Summary: No comments yet.
   Comments-URI: 
-  Status: Proposal
+  Status: Accepted
   Type: Process
   Created: 2020-04-16
   Superseded-By: 0
