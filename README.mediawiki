@@ -102,7 +102,7 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Waku for Message Layer
 | Felix Laufenberg
 | Standard
-| Proposal
+| Accepted
 |}
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add OVIPs here! -->
