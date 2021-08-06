@@ -81,7 +81,7 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | OpenVASP Core Data Types
 | David Riegelnig
 | Standard
-| Accepted
+| Superseded
 |-
 | [[ovip-0014.md|14]]
 |
@@ -101,6 +101,13 @@ We thank the Bitcoin community for introducing this process to handle standard i
 |
 | Waku for Message Layer
 | Felix Laufenberg
+| Standard
+| Accepted
+|-
+| [[ovip-0017.md|17]]
+|
+| Increase InterVASP IVMS101 compatibility
+| Lucas Betschart
 | Standard
 | Accepted
 |}
