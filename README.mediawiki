@@ -46,21 +46,21 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Session Layer
 | David Riegelnig
 | Standard
-| Accepted
+| Superseded
 |-
 | [[ovip-0009.md|9]]
 |
 | 6 Layers of OpenVASP
 | Felix Laufenberg
 | Standard
-| Accepted
+| Superseded
 |-
 | [[ovip-0010.md|10]]
 |
 | Whisper as Transport Layer
 | David Riegelnig
 | Standard
-| Accepted
+| Superseded
 |-
 | [[ovip-0011.md|11]]
 |
@@ -88,7 +88,7 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Message Family: Transfer (TFR)
 | David Riegelnig
 | Standard
-| Accepted
+| Superseded
 |-
 | [[ovip-0015.md|15]]
 |
@@ -102,12 +102,19 @@ We thank the Bitcoin community for introducing this process to handle standard i
 | Waku for Message Layer
 | Felix Laufenberg
 | Standard
-| Accepted
+| Superseded
 |-
 | [[ovip-0017.md|17]]
 |
 | Increase InterVASP IVMS101 compatibility
 | Lucas Betschart
+| Standard
+| Accepted
+|-
+| [[ovip-0018.md|18]]
+|
+| JSON message layer via HTTPS
+| Filip Gospodinov
 | Standard
 | Accepted
 |}
